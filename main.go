@@ -49,7 +49,6 @@ func main() {
 	userTickets = 2
 	fmt.Printf("User %v booked %v tickets.\n", userName, userTickets)
 
-
 	greetUsers()
 
 	//for {
@@ -145,8 +144,6 @@ func sendTicket(userTickets uint, firstName string, lastName string, email strin
 	fmt.Printf("Sending ticket:\n %v \nto email address %v\n", ticket, email)
 	fmt.Println("#################")
 	wg.Done()
-}
-
 }
 
 /*Basic Data Types
